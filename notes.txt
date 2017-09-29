@@ -89,3 +89,14 @@ Assuming you have an account and a local repo with committed changes:
 Add and commit frequently any time you complete a small piece of functionality
 Write descriptive commit messages
 Push commits regularly (at least twice a day)
+
+--------------------------------------------------------------------
+
+Dev Resources
+    Google - the best resource
+    w3schools.com - very helpful quick reference
+    Mozilla Developer Network (MDN) - deeper technical reference than w3schools
+    Stackoverflow - forum for programming questions
+    Codecademy - many tutorials with exercises to debug
+    Lynda - free learning resource through Bibliotech Bexar County
+    Treehouse.com - free learning resource through Bibliotech Bexar County
