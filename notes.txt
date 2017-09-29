@@ -100,3 +100,18 @@ Dev Resources
     Codecademy - many tutorials with exercises to debug
     Lynda - free learning resource through Bibliotech Bexar County
     Treehouse.com - free learning resource through Bibliotech Bexar County
+
+--------------------------------------------------------------------
+
+-- Extra CSS Resources --
+    DevTips YouTube channel
+    CSS-Tricks blog
+    https://coolors.co/f15025-ffffff-e6e8e6-ced0ce-191919
+    https://www.onblastblog.com/css3-cheat-sheet/
+
+
+-- Cool Examples! --
+
+    https://codepen.io/mtorosian/full/KwyrZa
+    https://codepen.io/r4ms3s/pen/gajVBG
+    http://www.rleonardi.com/interactive-resume/
