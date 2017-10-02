@@ -115,3 +115,74 @@ Dev Resources
     https://codepen.io/mtorosian/full/KwyrZa
     https://codepen.io/r4ms3s/pen/gajVBG
     http://www.rleonardi.com/interactive-resume/
+
+--------------------------------------------------------------------
+
+================================= GIT BRANCHING
+
+Everything we have done is on the “master branch” in Git
+
+New best practice work flow...don’t commit in the local master branch; always add and commit in another branch!
+
+   --> FIRST STEP
+    Create a new branch in your Git local repo (suggested branch name: yourName-exerciseOrFeature)...
+    Command: git checkout -b “justin-box-model”
+
+   --> SECOND STEP
+    Add and commit changes as you normally would...
+    Command: git add someFile, git commit someFile, etc.
+
+   --> THIRD STEP
+    Merge local branch with the local master branch...
+    Commands:
+        1) git checkout master
+        2) git merge whateverBranchName
+
+       OR
+
+   Discard work from branch and DON’T merge with the local master branch...
+    Commands:
+        1) git checkout master
+        2) git branch -D whateverBranchName (deletes the branch and all the work you committed!)
+
+   --> FOURTH STEP
+    Push up changes from local master branch to remote repository (GitHub repo)...
+    Command: git push origin master
+
+To list all created branches...
+Command: git branch
+
+
+================================= GIT BRANCHING EXERCISE
+
+
+Create a branch of your name:
+
+    git checkout -b firstname-lastname
+
+
+In this branch, use the following command to create a new file: 
+
+    touch branch-test.txt
+
+
+Add and commit the change:
+
+    git add . (or git add branch-test.txt)
+
+    git commit -m “Add branch-test.txt”
+
+
+Check your list of branches:
+    
+    git branch
+
+
+Checkout to master:
+
+    git checkout master
+
+
+Merge the changes from your branch
+
+    git merge firstname-lastname
