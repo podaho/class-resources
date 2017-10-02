@@ -292,3 +292,35 @@ multiple ways to do a thing
     interfaces change
     cli interfaces change
     finding what gets the job done (relying on previously memorized things, finding new ways)
+
+------------------------------------------------------------------------------------
+
+final workflow:
+never really work in the master branch
+make a new branch whenever you need to 
+    - add a feature
+    - fix a bug
+    - add content
+
+name the branch something having to do with the work you're adding
+
+do your work
+commit your work to that new branch
+
+(later)
+git push origin newBranch (to get your work on github)
+
+when you want the new work from newBranch to go into your master branch 
+git checkout master (or make sure you're working in master)
+git merge newBranch
+
+git vocab:
+git add filename => hey git, track this file
+
+git commit => makes a commit which is a timestamped moment in time with an identifier
+    - commit can hold 1 or more files
+    - commits are commited to a branch
+    - we group related changes in a commit
+
+git push (sending a copy of all the commits in the currently checked out branch to a remote)
+    - push can send 1 or more commits
