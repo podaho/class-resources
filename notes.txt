@@ -186,3 +186,109 @@ Checkout to master:
 Merge the changes from your branch
 
     git merge firstname-lastname
+
+------------------------------------------------------------------------
+
+NowWeKnow.md
+Set Timer for 1 minute
+- you can use fn delete to delete
+- github repo
+    git is a program that runs on terminal, GUI
+    git itself is:
+        - a permanent record
+        - a time machine
+        - doorway to parallel universes (branches)
+    "repo" means a regular ol' directory/folder that is managed by git
+    any time you type "git init" in a folder, you make it a git repo
+    when you are inside a repo, git commands work for that folder
+    github is a brand of an online service that hosts git repos remotely
+    github allows us to save our code in folders (repos)
+    github is a hosting service for code
+- option and arrow to move to next 
+- new shortcuts in intellij and mac
+    command + t => open a new tab
+    command + n => open a new window
+    control + tab => cycle between open tabs
+    command + tab => cycle between open windows
+- class & id
+    - useful for grouping elements together
+    - add multiple classes to elements, separated with a space
+    - prefer classes over using ids
+    - Apply an id to element if that element is super special and there's only 1 of it
+    - If we need to target some element(s) with CSS, slap a class them
+- shift + alt + click to get multiple cursors
+- emmett shortus
+- stylesheets
+- "the workflow"
+    - open up your project in intelliJ
+    - create or edit files
+    - command + k (and write a clear commit message that explains what, why, how)
+    - commit + push
+- all about slack and all about intellij
+- selectors
+    element selector (h1 targets all h1 elements, li targets all li elements)
+    .class-selector means this targets all html elements that have this class name
+    #id-selector
+    .multiple, .class-selector  (comma means either selector) (h1, h2, h3)
+    h1.class-selector (no-spaces mean element must have both selectors)
+    .parent>.directChild => direct child selector
+    .space .separated => all .separated descendents of .space
+    table h2 => all h2s that are descendents of table
+css:
+.blue {
+    background-color: blue;
+}
+<h1 class="blue">Hi, everybody</h1>
+- git terminal commands
+    git init => enables a directory w/ git (should only be done once)  
+    git status => shows you if files are unstaged, staged, and what branch you are in
+    git add <filename> => stages a file for commit
+    git add . => stages all changes for commit
+    git log => shows the list of commits 
+    git commit => commits staged files
+    git commit -m "first commit of whatever" => commits staged files with a message
+    git push origin master => uploads your git commits to github
+    git checkout branchName => changes the contents of a folder to match what is commited in that branch name
+    git checkout 1b13k73i21k => checks out a specific commit
+    git branch => shows local branches available for checkout, currently checked out branch
+    git merge anotherBranch => merges changes from anotherBranch into your current branch
+    git checkout -b newbranch => makes a branch called newbranch and checks it out
+    git pull origin branchName => pulls changes on branchName from remote into your local
+- remove my last commit from git (accidentally committed somethin' with a password)
+- VCS (resume example vs. git)
+    resume.pdf
+    resume1.pdf
+    resumeFINAL.pdf
+    resumeFORTHISnewEmployer.pdf
+    
+GUI vs. command line
+GUI => What you see is what you get (menus), what you see is ALL you get
+CLI => what commands you know is what you get, what you see is a tip of the iceberg
+git
+github
+margin/border/padding
+    padding is background, matte 
+    margin is space between elements
+    border goes around padding and content body
+style css
+    1. Add a style attribute to an HTML element (<h1 style="color:blue;">Hi</h1>)
+    2. Inline Styling means putting all your CSS inside a style tag inside the head
+    3. external CSS, <link rel="stylesheet" href="css/style.css">
+branching => multiple timelines
+when to use class or id? 
+margin when you have more than one element on top/bottom
+resizing elements
+    total width: width + padding left + padding right + border + margin left + margin right
+knowing where your file is exactly
+    on terminal, know where you are at any time with `pwd`
+    on terminal, type `ls -la` to see all the folders/files in that current directory
+    visualize the rlationship between terminal and your folder system
+intelliJ and terminal
+css inheritance
+    cascading style sheet
+    cascading means child elements inherit from the parent
+multiple ways to do a thing
+    tech aint about memorizing facts
+    interfaces change
+    cli interfaces change
+    finding what gets the job done (relying on previously memorized things, finding new ways)
